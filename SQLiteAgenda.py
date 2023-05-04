@@ -71,7 +71,7 @@ def menuAtualizar():
         vtelefone=rtelefone
     if(len(vemail)==0):
         vemail=remail
-    vsql="UPDATE tb_contatos SET T_NOMECONTATO='"+vnome+"',T_TELEFONECONTATO='"+vtelefone+"',T_EMAILCONATO='"+vemail+"' WHERE N_IDCONTATO"+vid
+    vsql="UPDATE tb_contatos SET T_NOMECONTATO='"+vnome+"',T_TELEFONECONTATO='"+vtelefone+"',T_EMAILCONTATO='"+vemail+"' WHERE N_IDCONTATO"+vid
     query(vsql,vsql)
 
 def menuConsultar():
